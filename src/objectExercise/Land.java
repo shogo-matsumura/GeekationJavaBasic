@@ -7,15 +7,17 @@ public class Land extends Property {
 		super(name, owner, type, price);
 		this.size = size;
 	}
-	//ゲッター
+
+	//ゲッターの実装
 	public double getSize() {
 		return this.size;
 	}
 
-	//セッター
+	//セッターの実装
 	public void setlayout(double size) {
 		this.size = size;
 	}
+
 	public void printLandDetails() {
 		System.out.println("=============================");
 		System.out.println("物件名：" + getName());

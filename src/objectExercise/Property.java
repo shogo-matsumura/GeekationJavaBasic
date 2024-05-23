@@ -5,7 +5,6 @@ public class Property {
 	private String owner;
 	private String type;
 	private long price;
-
 	Property(String name, String owner, String type, long price) {
 
 		this.name = name;
@@ -13,8 +12,7 @@ public class Property {
 		this.type = type;
 		this.price = price;
 	}
-
-	//ゲッター
+	//ゲッターの実装
 	public String getName() {
 		return name;
 	}
@@ -31,7 +29,7 @@ public class Property {
 		return this.price;
 	}
 
-	//セッター
+	//セッターの実装
 	public void setName(String name) {
 		this.name = name;
 	}
